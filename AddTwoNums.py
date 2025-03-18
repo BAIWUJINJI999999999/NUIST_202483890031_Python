@@ -1,39 +1,11 @@
-#Add Two Numbers in Python
 #Author: Zhou Yiwen
-#Using the + Operator
-a = 15
-b = 12
-#Adding two numbers
-res = a + b
-print(res)
+#Student ID: 202483890031
+#Date: 18/3/25
 
-#Add Two Numbers in Python
-#Author: Zhou Yiwen
-#Using user input
-
-#taking user input
-a = input("First number:")
-b = input("Second number:")
-
-#converting input to float and adding
-res = float(a) + float(b)
-print(res)
-
-#Add Two Numbers in Python
-#Author: Zhou Yiwen
-#Using a function
-
-#function to add two numbers
-def add(a,b):
- #converting input to float and adding
- result = float(a) + float(b)
- return result
-
-#taking user input
-a = input("First number:")
-b = input("Second number:")
-
-#calling function
-res = add(a,b)
-print("The answer is:")
-print(res)
+studentNames = ["Lisa", "Liam", "Leo", "Larry", "Linda"]
+for name in studentNames:
+    print(f"{name} Evans")
+new_name = input("Enter a new name:")
+studentNames.append(new_name)
+for name in studentNames:
+    print(f"{name} Evans")
